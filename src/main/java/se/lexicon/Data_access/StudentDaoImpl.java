@@ -24,6 +24,16 @@ public class StudentDaoImpl implements StudentDao {
         return null;
     }
 
+    @Override
+    public Student remove(int id) {
+        return null;
+    }
+
+    @Override
+    public Student edit(Student student) {
+        return null;
+    }
+
     public List<Student> students() {
         return null;
     }
