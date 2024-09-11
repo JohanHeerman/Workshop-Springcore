@@ -1,15 +1,12 @@
-package se.lexicon.Data_access;
-
-import se.lexicon.Model.Student;
+package se.lexicon.Model;
 
 import java.util.List;
 
-public interface StudentDao {
-
+public interface StudentManagement {
+    Student create();
     Student save(Student student);
     Student find(int id);
-    void delete(int id);
-    List<Student> findAll();
     Student remove(int id);
+    List<Student> findAll();
     Student edit(Student student);
 }
